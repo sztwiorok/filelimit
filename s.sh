@@ -1,9 +1,7 @@
 #!/bin/bash
 
-echo $1
-
-for ((i=1; i<=$1; i++))
+for ((i=1; i<=999; i++))
 do
-    touch f300-$i.txt
+    touch file$i.txt
 done
 
